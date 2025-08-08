@@ -1,0 +1,12 @@
+models:
+  - name: dim_produtos
+    description: Tabela de dimensao para consumo final da tabela de produtos.
+    columns:
+      - name: pk_produto
+        description: Chave primaria do produto.
+
+      - name: ds_nome_produto
+        description: Coluna com o nome do produto.
+
+      - name: unidade_em_estoque
+        description: Coluna com as informacoes de unidades em estoque.
