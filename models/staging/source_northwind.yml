@@ -19,3 +19,9 @@ sources:
             data_tests:
               - not_null
               - unique
+      
+      - name: orders
+        description: Tabela de pedidos.
+
+      - name: order_details
+        description: Tabela dos detalhes dos pedidos.
