@@ -1,0 +1,27 @@
+models:
+  - name: dim_datas
+    description: "Tabela de data"
+    columns:
+      - name: data
+        data_type: date
+        description: "bla bla bla"
+
+      - name: dia
+        data_type: number
+        description: ""
+
+      - name: mes
+        data_type: number
+        description: ""
+
+      - name: ano
+        data_type: number
+        description: ""
+
+      - name: dia_da_semana
+        data_type: number
+        description: ""
+
+      - name: flag_final_de_semana
+        data_type: varchar
+        description: ""
