@@ -1,0 +1,3 @@
+models:
+  - name: f_vendas
+    description: "{{ doc('northwind_fato') }}"

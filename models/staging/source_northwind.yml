@@ -19,3 +19,9 @@ sources:
             data_tests:
               - not_null
               - unique
+      
+      - name: ORDERS
+        description: Tabela bruta com as informacoes de pedidos 
+
+      - name: ORDER_DETAILS
+        description: Tabela bruta com as informacoes de pedidos detalhes 

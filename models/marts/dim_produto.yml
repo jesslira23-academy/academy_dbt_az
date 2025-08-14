@@ -1,6 +1,6 @@
 models:
-  - name: dim_produtos
-    description: Tabela de dimensao para consumo final da tabela de produtos.
+  - name: dim_produto
+    description:  "{{ doc('northwind_produto') }}" 
     columns:
       - name: pk_produto
         description: Chave primaria do produto.
