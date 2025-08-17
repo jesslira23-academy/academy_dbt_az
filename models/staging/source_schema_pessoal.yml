@@ -1,0 +1,9 @@
+sources:
+  - name: schema_pessoal
+    description: Tabela source com informacoes do database da northwind onde foi clonado no schema pessoal.
+    database: DBT_AZ
+    schema: dbt_jessica_professor
+    tables:
+      - name: raw_produtos
+      - name: raw_pedidos
+        
